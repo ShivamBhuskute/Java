@@ -4,7 +4,7 @@ public class Pattern_pyramid {
 
         for (int i = 1; i <= rows; i++) {
 
-            for (int j = i; j < rows; j++) {
+            for (int j = i; j <= rows; j++) {
                 System.out.print(" ");
             }
 
