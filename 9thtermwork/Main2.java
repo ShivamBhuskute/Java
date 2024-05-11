@@ -1,6 +1,6 @@
 class Student {
     private int rollNo;
-    private String name;
+    String name;
 
     Student(int rollNo1, String name1) {
         rollNo = rollNo1;
@@ -23,7 +23,7 @@ class Student {
 
 public class Main2 {
     public static void main(String[] args) {
-        Student A = new Student(4117, "Shivam");
+        Student A = new Student(4117, "Tejaswini");
         Student B = new Student(3012);
 
         System.out.println("Student A:");
