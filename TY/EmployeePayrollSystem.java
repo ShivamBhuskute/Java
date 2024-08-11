@@ -1,4 +1,3 @@
-package TY;
 
 import java.util.ArrayList;
 
@@ -92,6 +91,8 @@ class PayrollSystem {
 
 public class EmployeePayrollSystem {
     public static void main(String[] args) {
+        System.out.println("Program started");
+
         // create object of payrollSystem class
         PayrollSystem payrollSystem = new PayrollSystem();
         FullTimeEmployee emp1 = new FullTimeEmployee("Ram", 01, 200000.0);
