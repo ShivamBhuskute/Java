@@ -11,6 +11,7 @@ class test extends Frame {
         setVisible(true);
     }
 
+    @SuppressWarnings("unused")
     public static void main(String[] args) {
         test t = new test();
     }
