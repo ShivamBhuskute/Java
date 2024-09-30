@@ -18,7 +18,6 @@ public class SimpleCalculator extends JFrame implements ActionListener {
         setLayout(new BorderLayout());
         setResizable(false);
 
-        // Display (30% of the height)
         display = new JTextField();
         display.setFont(new Font("Arial", Font.PLAIN, 30));
         display.setEditable(false);
@@ -26,19 +25,16 @@ public class SimpleCalculator extends JFrame implements ActionListener {
         display.setPreferredSize(new Dimension(getWidth(), getHeight() / 4));
         add(display, BorderLayout.NORTH);
 
-        // Button panel (70% of the height)
         buttonPanel = new JPanel();
         buttonPanel.setLayout(new GridLayout(4, 4, 10, 10));  // 4x4 grid
         add(buttonPanel, BorderLayout.CENTER);
 
         buttonPanel.setBackground(Color.WHITE);
 
-        // Add padding-like border by setting an empty border with a specific padding size
         buttonPanel.setBorder(new EmptyBorder(20, 20, 20, 20)); // 20px padding on all sides
 
         add(buttonPanel, BorderLayout.CENTER);
 
-        // Buttons
         String[] buttons = {
             "7", "8", "9", "/",
             "4", "5", "6", "*",
@@ -54,7 +50,6 @@ public class SimpleCalculator extends JFrame implements ActionListener {
             button.setOpaque(true);
             button.setPreferredSize(new Dimension(80, 80));
 
-            // Making buttons circular
             button.setBorder(BorderFactory.createEmptyBorder(20, 20, 20, 20)); 
             button.setContentAreaFilled(false); 
             button.setOpaque(true);
@@ -66,7 +61,6 @@ public class SimpleCalculator extends JFrame implements ActionListener {
         setVisible(true);
     }
 
-    @Override
     public void actionPerformed(ActionEvent e) {
         String command = e.getActionCommand();
         
