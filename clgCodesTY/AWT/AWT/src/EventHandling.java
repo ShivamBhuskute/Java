@@ -20,12 +20,12 @@ class EventHandling extends Frame implements ActionListener {
     }
 
     public void actionPerformed(ActionEvent e) {
-        t.setText("Hello, Good Morning");
+        t.setText("Hello, " + t.getText() + ", Good Morning!");
     }
 
-    @SuppressWarnings("unused")
+    // @SuppressWarnings("unused")
     public static void main(String[] args) {
 
-        EventHandling e = new EventHandling();
+        new EventHandling();
     }
 }
