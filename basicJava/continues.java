@@ -8,4 +8,4 @@ public class continues {
             System.out.print(i + " ");
         }
     }
-}
+} 
