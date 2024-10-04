@@ -23,7 +23,7 @@ class EventHandling extends Frame implements ActionListener {
         t.setText("Hello, " + t.getText() + ", Good Morning!");
     }
 
-    // @SuppressWarnings("unused")
+    // @SuppressWarnings("unused")  
     public static void main(String[] args) {
 
         new EventHandling();
