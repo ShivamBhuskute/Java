@@ -2,9 +2,9 @@ import java.awt.*;
 import java.awt.event.*;
 
 public class BasicCal extends Frame implements ActionListener {
-    Label l1 = new Label("Num1");
-    Label l2 = new Label("Num2");
-    Label l3 = new Label("Result");
+    Label l1 = new Label("Num1: ");
+    Label l2 = new Label("Num2: ");
+    Label l3 = new Label("Result: ");
 
     TextField t1 = new TextField();
     TextField t2 = new TextField();
@@ -52,7 +52,7 @@ public class BasicCal extends Frame implements ActionListener {
         setSize(400, 500);
         setLayout(null);
         setVisible(true);
-
+        setResizable(false);
     }
 
     public void actionPerformed(ActionEvent e) {
