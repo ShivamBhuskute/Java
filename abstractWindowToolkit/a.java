@@ -5,7 +5,7 @@ import java.awt.event.*;
 
 public class a extends Frame {
     a() {
-        setSize(200, 300);
+        setSize(800, 800);
         setLayout(null);
         setVisible(true);
         Label l1 = new Label("AJP");
