@@ -3,7 +3,7 @@ import javax.swing.*;
 
 public class JRadioButtonEx extends JFrame {
     JRadioButtonEx() {
-        // setVisible(true);
+        setVisible(true);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setBounds(100, 100, 600, 500);
         Container c = getContentPane();
@@ -57,6 +57,6 @@ public class JRadioButtonEx extends JFrame {
     }
 
     public static void main(String[] args) {
-        JRadioButtonEx j = new JRadioButtonEx();
+        new JRadioButtonEx();
     }
 }

@@ -30,10 +30,10 @@ public class JCheckBoxEx extends JFrame {
         // c1.setFont(f);c2.setFont(f);c3.setFont(f);c4.setFont(f);
 
         // setselected method to select option bydefault
-        // c2.setSelected(true);
+        c2.setSelected(true);
 
         // to disable the option
-        // c4.setEnabled(false);
+        c4.setEnabled(false);
 
     }
 
