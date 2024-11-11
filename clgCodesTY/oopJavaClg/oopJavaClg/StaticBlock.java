@@ -1,4 +1,4 @@
-package oopConcept;
+// package oopConcept;
 
 
 public class StaticBlock {
