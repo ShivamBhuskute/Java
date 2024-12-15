@@ -1,4 +1,4 @@
-package Multithreading;
+// package Multithreading;
 
 public class SynchronizedMethod {
     public void printTable(int n){

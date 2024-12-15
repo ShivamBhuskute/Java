@@ -1,6 +1,6 @@
-package Multithreading;
+// package Multithreading;
 
-public class SchedularEx extends Thread{
+class JoinMethod extends Thread {
     @Override
     public void run() {
         String n=Thread.currentThread().getName();
@@ -9,18 +9,27 @@ public class SchedularEx extends Thread{
         }
     }
 }
-class Example{
+
+
+public class JoinMethod1 {
     public static void main(String[] args) {
-        SchedularEx t1=new SchedularEx();
-        SchedularEx t2=new SchedularEx();
-        SchedularEx t3=new SchedularEx();
+        JoinMethod t1 = new JoinMethod();
+        JoinMethod t2 = new JoinMethod();
+        JoinMethod t3 = new JoinMethod();
 
         t1.setName("thread 1");
         t2.setName("thread 2");
         t3.setName("thread 3");
 
-        t1.start();
+
         t2.start();
+        try {
+            t2.join();
+        }
+        catch(InterruptedException e){
+
+        }
+        t1.start();
         t3.start();
 
         String n=Thread.currentThread().getName();
