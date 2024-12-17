@@ -1,4 +1,4 @@
-package LayoutManagers;
+// package LayoutManagers;
 import javax.swing.*;
 import java.awt.*;
 public class BorderLayoutEX extends JFrame {

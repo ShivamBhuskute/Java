@@ -18,9 +18,9 @@ public class Prioritymethods1{
         t2.setName("Thread 2");
         t3.setName("Thread 3");
 
-        t1.setPriority(10);
-        t2.setPriority(6);
-        t3.setPriority(7);
+        // t1.setPriority(10);
+        // t2.setPriority(6);
+        // t3.setPriority(7);
 
         t1.start();
         t2.start();

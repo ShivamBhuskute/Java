@@ -1,4 +1,4 @@
-package LayoutManagers;
+// package LayoutManagers;
 
 import javax.swing.*;
 import java.awt.*;
@@ -32,6 +32,6 @@ public class BoxLayoutEx extends JFrame {
     }
 
     public static void main(String[] args) {
-        BoxLayoutEx bl=new BoxLayoutEx();
+        new BoxLayoutEx();
     }
 }

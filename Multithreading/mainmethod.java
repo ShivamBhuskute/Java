@@ -1,6 +1,6 @@
 // package Multithreading;
 
-public class SynchronizedMethod {
+class SynchronizedMethod {
     public void printTable(int n){
         for (int i=1;i<=10;i++){
             System.out.println(n*i);
@@ -30,7 +30,7 @@ class thread2 extends Thread{
     }
 }
 
-class mainmethod{
+public class mainmethod{
     public static void main(String[] args) {
       SynchronizedMethod obj=new SynchronizedMethod();
 
