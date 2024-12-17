@@ -1,4 +1,4 @@
-package JOptionpane;
+// package JOptionpane;
 
 // JOptionPane used to show an input Dialog
 // show Message Dialog

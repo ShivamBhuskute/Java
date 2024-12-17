@@ -1,4 +1,4 @@
-package JOptionpane;
+// package JOptionpane;
 //JOptionPane.showMessageDialog(parent,message,title,message_type);
 //message types:
 //1. JOptionPane.PLAIN_MESSAGE
