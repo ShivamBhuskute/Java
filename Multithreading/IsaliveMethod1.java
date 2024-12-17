@@ -1,6 +1,6 @@
-package Multithreading;
+// package Multithreading;
 
-public class IsaliveMethod extends Thread{
+class IsaliveMethod extends Thread{
     @Override
     public void run() {
         String n = Thread.currentThread().getName();
@@ -9,7 +9,7 @@ public class IsaliveMethod extends Thread{
         }
     }
 }
-class Example5 {
+public class IsaliveMethod1 {
     public static void main(String[] args) {
         IsaliveMethod t1 = new IsaliveMethod();
         IsaliveMethod t2 = new IsaliveMethod();
