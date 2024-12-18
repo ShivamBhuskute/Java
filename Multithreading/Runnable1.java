@@ -1,6 +1,6 @@
-package Multithreading;
+// package Multithreading;
 
-public class UsingInterfaceEx implements Runnable{
+class UsingInterfaceEx implements Runnable{
     @Override
     public void run() {
         for (int i=1;i<=5;i++){
@@ -8,7 +8,7 @@ public class UsingInterfaceEx implements Runnable{
         }
     }
 }
-class mainclass{
+public class Runnable1{
     public static void main(String[] args) {
         UsingInterfaceEx u=new UsingInterfaceEx();
         Thread t=new Thread(u);

@@ -1,4 +1,4 @@
-package Multithreading;
+// package Multithreading;
 
 class YieldMethod extends Thread{
     @Override
@@ -19,7 +19,7 @@ class YieldMethod1 extends Thread{
         }
     }
 }
-class Example3 {
+public class yieldd {
     public static void main(String[] args) {
         YieldMethod t1 = new YieldMethod();
         YieldMethod1 t2 = new YieldMethod1();

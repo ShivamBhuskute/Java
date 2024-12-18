@@ -1,5 +1,6 @@
-package Multithreading;
-import java.lang.*;
+// package Multithreading;
+// import java.lang.*;
+
 public class ThreadClass extends Thread{
     public void run(){
         try{

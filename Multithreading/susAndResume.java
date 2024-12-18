@@ -1,6 +1,6 @@
-package Multithreading;
+// package Multithreading;
 
-public class SuspendAndResume extends Thread{
+class SuspendAndResume extends Thread{
     @Override
     public void run() {
         String n=Thread.currentThread().getName();
@@ -9,7 +9,7 @@ public class SuspendAndResume extends Thread{
         }
     }
 }
-class Example2 {
+public class susAndResume {
     public static void main(String[] args) {
         SuspendAndResume t1 = new SuspendAndResume();
         SuspendAndResume t2 = new SuspendAndResume();
@@ -21,8 +21,8 @@ class Example2 {
 
         t1.start();
         t2.start();
-//        t2.suspend();
-//        t2.resume();
+    //    t2.suspend();
+    //    t2.resume();
         t3.start();
 
         String n=Thread.currentThread().getName();

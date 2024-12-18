@@ -1,6 +1,6 @@
-package Multithreading;
+// package Multithreading;
 
-public class StopMethod extends Thread{
+class StopMethod extends Thread{
     @Override
     public void run() {
         String n = Thread.currentThread().getName();
@@ -9,7 +9,7 @@ public class StopMethod extends Thread{
         }
     }
 }
-class Example4 {
+public class stopMeth {
     public static void main(String[] args) {
         StopMethod t1 = new StopMethod();
         StopMethod t2 = new StopMethod();
