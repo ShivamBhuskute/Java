@@ -27,6 +27,6 @@ public class JButtonEvent1 extends JFrame implements ActionListener {
     }
 
     public static void main(String[] args) {
-        JButtonEvent1 be = new JButtonEvent1();
+        new JButtonEvent1();
     }
 }
