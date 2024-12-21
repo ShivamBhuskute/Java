@@ -8,6 +8,6 @@ public class InstanceBlock {
     }
 
     public static void main(String[] args) {
-        InstanceBlock i1=new InstanceBlock();
+        new InstanceBlock();
     }
 }
