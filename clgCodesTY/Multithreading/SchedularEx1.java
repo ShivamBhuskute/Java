@@ -1,18 +1,19 @@
 // package Multithreading;
- class SchedularEx extends Thread{
+class SchedularEx extends Thread {
     @Override
     public void run() {
-        String n=Thread.currentThread().getName();
-        for(int i=1;i<=3;i++){
+        String n = Thread.currentThread().getName();
+        for (int i = 1; i <= 3; i++) {
             System.out.println(n);
         }
     }
 }
-public class SchedularEx1{
+
+public class SchedularEx1 {
     public static void main(String[] args) {
-        SchedularEx t1=new SchedularEx();
-        SchedularEx t2=new SchedularEx();
-        SchedularEx t3=new SchedularEx();
+        SchedularEx t1 = new SchedularEx();
+        SchedularEx t2 = new SchedularEx();
+        SchedularEx t3 = new SchedularEx();
 
         t1.setName("thread 1");
         t2.setName("thread 2");
@@ -22,8 +23,8 @@ public class SchedularEx1{
         t2.start();
         t3.start();
 
-        String n=Thread.currentThread().getName();
-        for(int i=1;i<=3;i++){
+        String n = Thread.currentThread().getName();
+        for (int i = 1; i <= 3; i++) {
             System.out.println(n);
         }
     }
