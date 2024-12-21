@@ -1,4 +1,4 @@
-package oopConcept;
+// package oopConcept;
 
 // The common base interface (Grandparent)
 interface A {
@@ -22,7 +22,7 @@ class D implements B, C {
         System.out.println("D's show()");
     }
 }
-class Main {
+public class diamondProblem {
     public static void main(String[] args) {
         D d = new D();
         d.show(); // Output: D's show()

@@ -1,4 +1,4 @@
-package oopConcept;
+// package oopConcept;
 //default costructor
 public class Costructor {
     public static void main(String[] args) {

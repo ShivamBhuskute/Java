@@ -1,4 +1,4 @@
-package oopConcept;
+// package oopConcept;
 class suresh{
     void walk(){
         System.out.println("suresh is walking");

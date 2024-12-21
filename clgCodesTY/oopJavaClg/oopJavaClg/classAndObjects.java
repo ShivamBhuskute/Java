@@ -1,4 +1,4 @@
-package oopConcept;
+// package oopConcept;
 
 public class classAndObjects {
     public static void main(String[] args) {
