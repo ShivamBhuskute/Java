@@ -35,6 +35,6 @@ public class GridLayoutEx extends JFrame {
     }
 
     public static void main(String[] args) {
-        GridLayoutEx ge = new GridLayoutEx();
+        new GridLayoutEx();
     }
 }

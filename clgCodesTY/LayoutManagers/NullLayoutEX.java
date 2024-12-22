@@ -31,6 +31,6 @@ public class NullLayoutEX extends JFrame {
     }
 
     public static void main(String[] args) {
-        NullLayoutEX n = new NullLayoutEX();
+        new NullLayoutEX();
     }
 }
