@@ -1,6 +1,6 @@
 // package Multithreading;
 
- class PriorityMethods extends Thread{
+class PriorityMethods extends Thread {
     @Override
     public void run() {
         System.out.println(Thread.currentThread().getName());
@@ -8,11 +8,11 @@
     }
 }
 
-public class Prioritymethods1{
+public class Prioritymethods1 {
     public static void main(String[] args) {
-        PriorityMethods t1=new PriorityMethods();
-        PriorityMethods t2=new PriorityMethods();
-        PriorityMethods t3=new PriorityMethods();
+        PriorityMethods t1 = new PriorityMethods();
+        PriorityMethods t2 = new PriorityMethods();
+        PriorityMethods t3 = new PriorityMethods();
 
         t1.setName("Thread 1");
         t2.setName("Thread 2");
