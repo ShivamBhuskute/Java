@@ -11,7 +11,7 @@ public class UiElements extends Frame implements ActionListener {
         l.setText("AJP Lecture");
         add(l);
 
-        TextField t = new TextField();
+        t = new TextField();
         t.setBounds(160, 100, 90, 30);
         t.setText("hello");
         add(t);
@@ -69,6 +69,7 @@ public class UiElements extends Frame implements ActionListener {
         setLayout(null);
         setVisible(true);
         setTitle("UI Elements program");
+        // t.addActionListener(this);
     }
 
     @SuppressWarnings("unused")
