@@ -32,6 +32,6 @@ public class CardLayoutEx extends JFrame {
     }
 
     public static void main(String[] args) {
-        CardLayoutEx cl=new CardLayoutEx();
+        new CardLayoutEx();
     }
 }

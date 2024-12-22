@@ -21,7 +21,7 @@ public class Client {
 
         String modifiedSentence = new String(receivePacket.getData());
 
-        System.out.println("FROM SERVER:" + modifiedSentence);
+        System.out.println("FROM SERVER: " + modifiedSentence);
 
         ds.close();
 

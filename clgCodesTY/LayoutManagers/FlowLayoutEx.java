@@ -31,6 +31,6 @@ public class FlowLayoutEx extends JFrame{
     }
 
     public static void main(String[] args) {
-        FlowLayoutEx fe=new FlowLayoutEx();
+        new FlowLayoutEx();
     }
 }

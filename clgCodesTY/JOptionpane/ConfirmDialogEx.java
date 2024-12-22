@@ -34,6 +34,6 @@ public class ConfirmDialogEx extends JFrame implements ActionListener {
     }
 
     public static void main(String[] args) {
-        ConfirmDialogEx c = new ConfirmDialogEx();
+        new ConfirmDialogEx();
     }
 }
