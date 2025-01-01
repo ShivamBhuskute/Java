@@ -72,9 +72,9 @@ public class UiElements extends Frame implements ActionListener {
         // t.addActionListener(this);
     }
 
-    @SuppressWarnings("unused")
+    // @SuppressWarnings("unused")
     public void actionPerformed(ActionEvent e) {
-        String tf = t.getText();
+        // String tf = t.getText();
         String d = "";
         t.setText(String.valueOf(d));
     }

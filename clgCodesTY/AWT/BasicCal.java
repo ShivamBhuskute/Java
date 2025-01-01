@@ -43,16 +43,18 @@ public class BasicCal extends Frame implements ActionListener {
         add(b4);
         add(b5);
 
+        
+        setSize(400, 500);
+        setLayout(null);
+        setVisible(true);
+        setResizable(false);
+
+        
         b1.addActionListener(this);
         b2.addActionListener(this);
         b3.addActionListener(this);
         b4.addActionListener(this);
         b5.addActionListener(this);
-
-        setSize(400, 500);
-        setLayout(null);
-        setVisible(true);
-        setResizable(false);
     }
 
     public void actionPerformed(ActionEvent e) {
